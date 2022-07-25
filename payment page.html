@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="form">
+        <h1 class="head1">PAYMENT FORM</h1>
+        <hr>
+        <h2>USER INFORMATION</h2>
+        <p>Name : 
+        <input type="text" required name="name" placeholder="Gaurav">
+        </p>
+        <p>
+            <fieldset>
+         <legend>Gender</legend> 
+         male <input type="radio" name="gender" id="male">
+         female <input type="radio" name="gender" id="female">
+        </fieldset>           
+        </p>
+        <p>
+            <Address>
+                Address: 
+             
+            </Address>
+            <textarea name="Address" id="" cols="30" rows="10">Enter Text</textarea>
+        </p>
+        <p>
+            Email : <input type="email" name="" id="">
+        </p>
+         <p>
+            Pincode: <input type="text">
+         </p>
+         <h2>
+            PAYMENT INFORMATION
+         </h2>
+         <p>
+            PAYMENT METHOD :
+            <select name="PAYMENT METHOD" id="">
+                <option value="EMI">EMI</option>
+                <option value="Debit">Debit</option>
+                <option value="Credit">Credit</option>
+                <option value="Cash">Cash</option>
+            </select>
+         </p>
+         <p>
+            <input type="button" value="PAY NOW">
+         </p>
+    </div>
+</body>
+</html>
